@@ -1,0 +1,13 @@
+﻿appsettings.json
+appsettings.*.json      # Ignores environment-specific appsettings (e.g., appsettings.Development.json)
+*.secrets.json        # Ignores files ending in .secrets.json (for other sensitive data)
+bin/                  # Ignores build output directories (bin and obj)
+obj/
+/publish              # Ignore publish folder
+.vs/                 # Visual Studio specific files
+*.user              # User specific files
+*.suo
+*.sln.docstates.suo
+*.userosscache
+*.csproj.user
+*.DS_Store             # macOS folder metadata
